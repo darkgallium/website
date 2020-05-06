@@ -9,7 +9,7 @@ My name is **Florian Le Minoux** alias darkgallium :)
 
 I'm a french computer science student at INSA Rennes. I'm particularly interested in **networking**, **low-level programming** and **info-sec**.
 
-I'm looking for internship opportunities (in France or abroad) starting in January 2020. Feel free to have a look at my [resume](/cv.pdf).
+I'm looking for internship opportunities (in France or abroad) starting in January 2021. Feel free to have a look at my [resume](/cv.pdf).
 
 This website contains mainly some personal [projects](/projects) and a [blog](/posts/).
 
