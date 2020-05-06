@@ -1,0 +1,41 @@
+baseurl = "/"
+languageCode = "en-us"
+theme = "terminal"
+paginate = 5
+staticDir = ["static", "slides"]
+
+[params]
+  contentTypeName = "posts"
+  themeColor = "green"
+  showMenuItems = 2
+  showLanguageSelector = false
+  fullWidthTheme = false
+  centerTheme = true
+
+[languages]
+
+  [languages.en]
+    languageName = "English"
+    title = "~darkgallium"
+    subtitle = ""
+    owner = "darkgallium"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "~darkgallium"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        name = "projects"
+        url = "/projects"
+
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "blog"
+        url = "/posts/"

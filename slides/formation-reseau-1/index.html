@@ -1,0 +1,523 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Formation réseau - Team Sysres</title>
+
+		<link rel="stylesheet" href="reveal.js/css/reset.css">
+		<link rel="stylesheet" href="reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="reveal.js/css/theme/moon.css">
+		<link rel="stylesheet" href="reveal.js/lib/css/monokai.css">
+
+		<style>
+
+			img.noframe {
+				background: none !important;
+				border: none !important;
+				box-shadow: none !important;
+			}
+
+		
+			img.logo {
+			    animation: beat 5s infinite alternate;
+			    transform-origin: center;
+			}
+
+			@keyframes beat {
+			    to { transform: scale(1.1) }
+			}
+
+			p, li {
+				color: #fffc;
+			}
+
+			a.email {
+				color: #61beff;	
+			}
+
+			p.text-small, ul.text-small {
+				font-size: 30px;
+			}
+
+		</style>
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Formation initiale au réseau</h1>
+					<img class="noframe logo" style="height: 20vh" src="logo.png" />
+					<p>darkgallium, 2019</p>
+				</section>
+
+				<section data-background-color="#000">
+					<p>Contrairement aux apparences, cette présentation n'est pas un cours.</p>
+					<p>Il se peut qu'elle contienne des imprécisions, des erreurs (que vous pouvez me signaler) et des blagues pas drôles !</p>
+					<p>Poursuivez à vos risques et périls...</p>
+				</section>
+
+				<section data-background-color="#000">
+					<section>
+						<img class="noframe" style="height: 60vh;" src="internet-map.jpg" />
+						<p><small>The Opte Project, un projet de visualisation d'internet sous forme de carte.</small></p>
+					</section>
+	
+					<section>
+						<h2>Internet kékessé ?</h2>
+						<p>C'est une interconnexion de réseaux hétérogènes.</p>
+						<p>Ces réseaux sont connectés entre eux par des <b>routeurs</b> qui acheminent les messages, subdivisés en <b>paquets</b>, d'un point à un autre du réseau.</p>
+					</section>
+				</section>
+				<section data-background-color="#000">
+					<section>
+						<h2>Comment faire communiquer deux équipements à travers ce réseau immense ?</h2>
+					</section>
+					
+					<section>
+						<h2>Du bon gros câble</h2>
+                                        	<img class="noframe" style="height: 45vh;" src="submarine-cables-map.png" />
+						<p><small>Carte des câbles internet sous-marins</small></p>
+                                        </section>
+					
+					<section>
+						<h2>Des routeurs</h2>
+						<img class="noframe" style="height: 45vh;" src="routeur-ovh.jpg" />
+					</section>
+
+					<section>
+						<h2>Des protocoles, much protocoles</h2>
+						<p>Un paquet ≈ une lettre.</p>
+						<p class="fragment">Il doit contenir des infos qui puissent <b>identifier l'expéditeur et le destinataire</b> et un <b>contenu</b>, un message.</p>
+						<p class="fragment">Tous les intermédiaires qui transportent le paquet doivent être capable de le lire et de l'envoyer sur la bonne route pour qu'il soit reçu.</p>
+					</section>
+					
+					<section>
+						<h2>Des protocoles, much protocoles</h2>
+						<p>Ces protocoles et normes permettent que les éléments du réseau parlent tous la même langue et puissent transmettre, lire et construire des paquets.</p>
+						<p class="fragment">Nous allons nous y intéresser dans les prochaines slides...</p>
+					</section>
+					
+				</section>
+				
+				<section>
+					<section>
+						<p>Les réseaux sont <b>complexes</b> et leurs usages évoluent rapidement.</p>
+						<p class="fragment">Les concepteurs des protocoles utilisés sur les réseaux aujourd'hui l'avaient anticipé et ont conçu leurs protocoles de façon <b>modulaire</b>.</p>
+					</section>
+
+					<section>
+						<p>Chaque paquet est constitué d'un mille-feuille d'en-têtes de protocoles en dessous duquel se trouvent les données transportées.</p>
+						<p class="fragment">Chaque couche gère un seul aspect du paquet (acheminement, vérification d'erreur, contenu...) en se reposant sur les autres couches pour gérer le reste.</p>
+					</section>
+
+					<section>
+						<h2>La pile de protocoles dans un paquet</h2>
+						<img class="noframe" style="height: 45vh;" src="osi-model.svg" />
+						<p><small>Pile de protocoles dans le modèle OSI (Open Systems Interconnection)</small></p>
+					</section>
+
+					<section>
+						<h2>La pile de protocoles dans un paquet</h2>
+						<p>Chaque protocole prend le résultat de la couche précédente et rajoute ses informations, on parle <b>d'encapsulation</b>.</p>
+						<img class="noframe" style="height: 27vh;" src="encapsulation.svg" />
+						<p><small>Encapsulation dans un paquet UDP</small></p>
+					</section>
+
+				</section>
+
+				<section>
+					<h2>Il était une fois un paquet...</h2>
+				</section>
+
+				<section class="highlight" data-background-color="#6a5d7b">
+					<h2>La couche liaison</h2>
+					<p>Cette couche contient les informations nécessaires pour acheminer les données entre deux voisins dans le réseau.</p>
+					<p>Elle contient principalement :</p>
+					<ul>
+						<li><b>Adresse MAC</b> source</li>
+						<li><b>Adresse MAC</b> destination</li>
+					</ul>
+					<p>Implémentations : Ethernet, 802.11 (Wi-Fi)</p>
+					<!-- TODO: explication adresse MAC et maybe après le fait qu'on peut pas s'en servir pour faire du routage -->
+				</section>
+				
+				<section class="highlight" data-background-color="#f86624">
+					<section>
+						<h2>La couche réseau</h2>
+						<p>Cette couche contient les informations nécessaires pour acheminer le paquet de l'hôte expéditeur à l'hôte de destination.</p>
+					</section>
+
+					<section>
+						<h2>De quoi a-t-on besoin au minimum pour acheminer un message d'un point à un autre d'un réseau ?</h2>
+					</section>
+					
+					<section>
+						<p>On a besoin que chaque participant ait un identifiant unique, pour qu'on puisse lui adresser des messages.</p>
+						<p class="fragment">Sur Internet, à chaque équipement est attribué une <b>adresse IP</b>, un identifiant sur 32 bits, écrit de la forme <b>192.168.1.1</b>.</p>
+						<p class="fragment">Cette adresse est l'information essentielle contenue dans la couche réseau, permettant aux intermédiaires réseau de diriger le paquet vers sa destination.</p>
+					</section>
+					
+					<!-- TODO: ICMP -->
+
+					<section>
+						<h2>L'en-tête du protocole IP</h2>
+						<ul>
+							<li><b>Adresse IP</b> source et de destination.</li>
+							<li>Un <b>Time To Live</b> (TTL) permettant de savoir par décomptage des hops si le paquet a été perdu.</li>
+							<li>Un <b>offset</b> qui permet de gérer la fragmentation de paquets IP même si elle est assez peu utilisée.</li>
+							<li>Un <b>checksum</b> pour vérifier l'intégrité du paquet, assez peu utilisé.</li>
+							<li>Des flags représentant des options particulières.</li>
+						</ul>
+					</section>
+				</section>
+				
+				<section class="highlight" data-background-color="#3bb273">
+
+					<section>
+						<h2>La couche transport</h2>
+						<p>Cette couche contient les informations nécessaire pour fournir une <b>communication logique</b> entre deux <b>processus</b> situés l'un sur la machine expéditrice et l'autre sur la machine destinataire.</p>
+					</section>
+
+					<section>
+						<p>Grâce à la couche IP, on peut acheminer un paquet d'un hôte à un autre, mais plusieurs processus peuvent envoyer/recevoir des paquets en même temps sur une même machine !</p>
+					</section>
+
+					<section>
+						<h2>Comment savoir à quel processus le paquet est destiné ?</h2>
+					</section>
+
+					<section>
+						<p>Chaque processus décide d'un numéro unique qui l'identifiera et tous les paquets mentionant ce numéro seront transférés à ce processus.</p>
+						<p class="fragment">C'est le <b>numéro de port</b>, il se situe entre 1 et 65535.</p>
+						<p class="fragment">Dans l'idéal, à un numéro de port correspond une application et/ou un usage.</p>
+						<p class="fragment">En pratique, les programmeurs choisissent leurs numéros de ports <b>au hasard</b> ! (<em>oh hi Fortnite!</em>)</p>
+					</section>
+
+					<section>
+						<h2>Quelques ports remarquables</h2>
+						<table style="color: #fff">
+							<thead>
+							</thead>
+							<tbody>
+								<tr>
+									<td>HTTP</td>
+									<td>80 (TCP)</td>
+								</tr>
+
+								<tr>
+									<td>HTTPS</td>
+									<td>443 (TCP)</td>
+								</tr>
+								
+								<tr>
+									<td>SSH</td>
+									<td>22 (TCP)</td>
+								</tr>
+								
+								<tr>
+									<td>Minecraft</td>
+									<td>25565 (TCP)</td>
+								</tr>
+
+								<tr>
+									<td>League Of Legends</td>
+									<td>5000-5500 (UDP)</td>
+								</tr>
+
+							</tbody>
+						</table>
+					</section>
+
+				</section>
+
+				<section class="highlight" data-background-color="#291720">
+					<section>
+						<h2>TCP</h2>
+						<p>Protocole <b>fiable</b> de la couche transport, fonctionnant en mode <b>connecté</b>.</p>
+						<p>Supporte la segmentation des paquets, garantit leur ordonnancement et dispose de mécaniques de gestion de la congestion (dont nous ne parlons pas ici).</p>
+						<p><em>Utilisations: web, ssh...</em></p>
+					</section>
+
+					<section>
+						<h2>TCP : mécanisme d'acquittement</h2>
+						<p class="text-small">A chaque fois qu'il reçoit un paquet TCP, un hôte accuse réception en envoyant à l'expéditeur un paquet d'acquittement (ACK).</p>
+						<img class="noframe" src="tcp-ack-simple.svg" style="height: 45vh; margin-top: 0; margin-bottom: 0" />
+					</section>
+
+					<section>
+						<h2>TCP : retransmission sur timeout</h2>
+						<p class="text-small">A chaque envoi d'un paquet, l'expéditeur lance un timer durant lequel il s'attend à reçevoir l'acquittement concernant le paquet.
+						<br>S'il ne le reçoit pas dans le temps imparti, le paquet est retransmis.</p>
+						<img class="noframe" src="tcp-retransmit.svg" style="height: 45vh; margin-top: 0; margin-bottom: 0" />
+					</section>
+
+					<section>
+						<h2>TCP : numéros de séquence</h2>
+						<p>TCP garantit que l'ordre des paquets est préservé.</p>
+						<p class="fragment">TCP permet également de segmenter les messages. C'est-à-dire que si le message est trop gros pour tenir dans un seul paquet, TCP va le découper et produire plusieurs plus petits paquets que le destinataire remettra dans l'ordre.</p>
+						<p class="fragment">Ces deux objectifs sont possibles car TCP numérote les paquets à l'aide d'un <b>numéro de séquence</b>.</p>
+					</section>
+					
+					<section>
+						<h2>TCP : numéro de séquence et d'ACK</h2>
+						<p>L'information d'acquittement est transportée en même temps que les données (<em>piggybacking</em>).</p>
+						<p>Chaque en-tête TCP contient :</p>
+						<ul>
+							<li><b>Un numéro de séquence</b> correspondant au numéro du premier octet de données transporté dans le paquet.</li>
+							<li><b>Un numéro d'acquittement</b> correspondant au numéro au prochain numéro de séquence attendu par l'expéditeur du paquet.</li>
+						</ul>
+					</section>
+
+
+					<section>
+						<h2>La magie TCP</h2>
+						<img class="noframe" src="tcp-session.svg" style="height: 55vh; margin-top: 0; margin-bottom: 0" />
+					</section>
+
+					<!-- fast retransmit -->
+					<section>
+						<h2>TCP : retransmission sur ACK dupliqué</h2>
+						<p>Si un paquet envoyé par Bob s'est perdu, le prochain paquet qu'Alice recevra aura un numéro d'ACK supérieur à celui attendu.</p>
+						<p>Dans ce cas, elle renverra un paquet avec le numéro d'ACK attendu (<b>ACK dupliqué</b>).</p>
+						<p>Au bout de 3 ACK dupliqués reçu, Bob réemettra le paquet qui s'est perdu.</p>
+					</section>
+
+					<section>
+						<h2>TCP : retransmission sur ACK dupliqué</h2>
+						<img class="noframe" src="tcp-fast-retransmit.svg" style="height: 55vh; margin-top: 0; margin-bottom: 0" />
+					</section>
+
+					<section>
+						<h2>TCP : 3-way handshake</h2>
+						<p>TCP est un protocole en mode <b>connecté</b>, il faut donc que deux hôtes établissent une connexion <b>avant</b> de pouvoir échanger des données.</p>
+						<p>Cette connexion permet de s'assurer que l'autre partie est prête à recevoir des données. Cela permet aussi de choisir (aléatoirement) de chaque côté le numéro de séquence initial.</p>
+					</section>
+
+					<section>
+						<h2>TCP : 3-way handshake</h2>
+						<img class="noframe" src="tcp-handshake.svg" style="height: 55vh; margin-top: 0; margin-bottom: 0" />
+					</section>
+
+					<!--<section>
+						<h2>Quelques autres surprises en provenance du Técépéistan</h2>
+						<p>TCP possède des mécanismes de <b>gestion de la congestion</b> desquels nous ne parlons pas dans cette présentation.</p>
+					</section>-->
+
+					<section>
+						<h2>L'en-tête du protocole TCP</h2>
+						<ul>
+							<li><b>Ports</b> source et de destination.</li>
+							<li><b>Numéro de séquence</b> du segment de données.</li>
+							<li>Des <b>indicateurs</b>: urgent (URG), acquittement (ACK), synchro (SYN), fin de connexion (FIN), terminaison (RST)...</li>
+						</ul>
+					</section>
+
+				</section>
+
+				<section class="highlight" data-background-color="#b10f2e">
+					
+					<section>
+                                        	<h2>UDP</h2>
+                                        	<p>Protocole <b>best effort</b> de la couche transport, fonctionnant sans connexion.</p>
+                                        	<p>Il gère la segmentation des paquets mais n'offre aucune garantie (intégrité, reception...).</p>
+                                        	<p><em>Utilisations: VoIP, jeux...</em></p>
+                                        </section>
+
+					<section>
+						<h2>L'en-tête du protocole UDP</h2>
+					</section>
+
+				</section>
+
+				<section class="highlight" data-background-color="#000">
+					<h2>La couche application</h2>
+					<p>En dessous de tous les en-têtes que nous avons vu se trouvent les données envoyées par l'application.</p>
+					<p>Chaque application dispose de son propre protocole de communication que le développeur a défini.</p>
+				</section>
+
+				<section>
+					<h3>Comment vérifier que je raconte pas de la merde depuis une demi-heure ?</h3>
+					<img class="noframe" src="wireshark.png" />
+				</section>
+
+				<section>
+					<p>Nous avons vu les différentes couches d'un paquet et les protocoles les plus connus qui les implémentent.</p>
+					<p><b>Comment les paquets franchissent-ils les réseaux et comment sont-ils dirigés vers la bonne destination ?</b></p>
+				</section>
+
+				<section>
+					<section>
+						<h2>Les routeurs</h2>
+						<p class="text-small">La fonction principale d'un routeur est de connecter un réseau à un ou plusieurs autres réseaux et donc de permettre l'acheminement des paquets à travers ces réseaux.</p>
+						<img class="noframe" src="reseau-routeurs.svg" style="height: 45vh;"/>
+					</section>
+
+					<section>
+						<h2>Les routeurs</h2>
+						<p>Lorsqu'un routeur reçoit un paquet depuis une interface d'entrée, il doit prendre une décision pour savoir vers quelle interface de sortie il l'envoie.</p>
+						<p>Pour cela il regarde l'adresse IP de destination du paquet et la compare à une <b>table de routage</b> qui fait correspondre une <em>plage</em> d'IP de destination à une interface de sortie.</p>
+						<!-- illustration table de routage -->
+					</section>
+
+					<section>
+						<h2>Masque de sous-réseau</h2>
+						<p>Il permet de distinguer dans l'adresse IP la partie réservée au routage (l'adresse du réseau) et la partie réservée à l'identification des hôtes.</p>
+						<p><span style="color:#e85d75">192.168.1</span><span style="color:#de9e36">.1</span> avec un masque <span style="color:#7dcfb6">/24 (255.255.255.0)</span></p>
+						<p>Les 24 premiers bits de l'IP sont l'adresse du réseau, les 8 derniers forment l'adresse d'un hôte dans le réseau.</p>
+					</section>
+
+					<section>
+						<h2>Masque de sous-réseau et routage</h2>
+						<p class="text-small">Le masque de sous réseau permet de déterminer si une IP est concernée ou non par une règle de routage.</p>
+						<pre style="margin-top: 45px; margin-bottom: 45px;"><code class="bash" style="font-size: 0.8em;" data-noescape data-trim>
+$ ip route
+default via 192.168.1.1 dev wlp2s0 proto dhcp metric 600
+<mark>172.17.0.0/16</mark> dev <mark>docker0</mark> proto kernel scope link src 172.17.0.1
+<mark>192.168.1.0/24</mark> dev <mark>wlp2s0</mark> proto kernel scope link src 192.168.1.2 metric 600
+						</pre></code>
+						<ul class="text-small">
+							<li>Tous les paquets dont la destination commence par 192.168.1 seront envoyés à l'interface <b>wlp2s0</b></li>
+							<li>Tous les paquets dont la destination commence par 172.17 seront envoyés à l'interface <b>docker0</b></li>
+							<li>Tous les autres paquets seront envoyés par défaut via l'interface <b>wlp2s0</b></li>
+						</ul>
+					</section>
+					
+					<section data-background-color="#000">
+						<h2>En résumé...</h2>
+						<img class="noframe" style="height: 55vh" src="ip-man-vs-the-mask.jpg" />
+					</section>
+
+					<section>
+						<h2>Il existe deux types d'adresses IP...</h2>
+						<ul>
+							<li style="margin-bottom: 25px">Les <b>IP publiques</b>, qui sont uniques sur Internet, routables et attribuées (c'est-à-dire vendues) par des organismes homologués par l'IANA.</li>
+							<li>Les <b>IP privées</b> ou <b>locales</b>, qui ne sont utilisables que sur un réseau local, donc elles ne sont pas routables sur Internet.</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Pourquoi deux types d'IP ?</h2>
+						<p>Si chaque appareil utilisant internet possédait une IP unique, nous serions très rapidement en pénurie d'IP (au moins d'IPv4).</p>
+						<p>En plus, il se trouve qu'une IPv4 ... ça coûte assez cher (surtout depuis qu'on est <em>véritablement</em> en pénurie d'IPv4 !)</p>
+					</section>
+
+					<section>
+						<h2>Comment faire cohabiter ces deux types d'IP ?</h2>
+						<p>La <a href="https://tools.ietf.org/html/rfc1918">RFC 1918</a> définit 3 plages d'IPv4 privées, qui ne sont pas routables sur Internet : <b>10.0.0.0/8</b>, <b>172.16.0.0/12</b> et <b>192.168.0.0/16</b>.</p>
+						<p>Toutes les autres IP sont des IP publiques attribuables par l'IANA.</p>
+						<p><b>Mais comment faire pour passer un paquet d'un réseau privé (IP source privée) vers un réseau public (IP de destination publique) ?</b></p>
+					</section>
+
+					<section>
+						<h2>NAT</h2>
+						<p>La solution c'est d'avoir une passerelle en bordure de réseau qui dispose d'une IP publique et qui remplace l'IP locale source par son IP publique dans chaque paquet avant de le router (<b>translation d'adresse</b>).</p>
+						<p>Pour que la passerelle puisse savoir à quelle machine du réseau local il faut qu'elle envoie un paquet en entrée, elle change également le port source de chaque paquet en sortie et tient une table de correspondance entre port source <i>extérieur</i> et IP et port de destination.</p>
+					</section>
+
+					<section data-background-color="#000" data-background-opacity="0.35" data-background-image="alerte-pelleteuse.jpg">
+						<h3>Protocoles de routage sur internet</h3>
+						<p class="text-small">Les routes sur internet ne sont pas fixées : les routeurs peuvent tomber en panne, le lien peut être physiquement coupé, de nouvelles routes se créent tous les jours...</p>
+						<p class="text-small">Comme les tables de routage évoluent très souvent, il existe des protocoles spécifiques (BGP, OSPF) qui permettent aux routeurs importants d'internet de se parler entre eux et d'annoncer aux autres les régions d'internet qu'ils peuvent joindre.</p>
+						<p class="text-small">Ces protocoles ne sont pas abordés dans cette présentation.</p>
+					</section>
+
+				</section>
+
+				<section>
+					<img class="noframe" src="mais-dis-donc-jamy.jpg" style="height: 30vh; margin-bottom: 30px;" />
+					<h3>Mais dis donc Jamy, comment mon PC trouve-t-il quelle adresse IP il doit utiliser sur un réseau local ?</h3>
+				</section>
+
+				<section>
+					<section>
+						<h2>DHCP</h2>
+						<p>DHCP est un protocole de la couche application (UDP, port 67 pour le serveur) qui permet de configurer automatiquement les paramètres réseau d'une machine.</p>
+					</section>
+
+					<section>
+						<h2>DHCP</h2>
+						
+						<p>Lorsqu'une machine est connectée à un réseau en mode DHCP, elle envoie un paquet de demande d'IP en <em>broadcast</em> (via une adresse IP spéciale que tous les ordinateurs d'un réseau local écoutent, 255.255.255.255).</p>
+                                                <p>Le serveur DHCP, s'il existe et qu'il est disposé, envoie une offre d'IP à la machine qui a fait la demande.</p>
+		                                <p>La machine accepte ou refuse l'offre (sauf config spécifique, il accepte la première qu'il reçoit on va pas se mentir).</p>
+					</section>
+				</section>
+
+				<!-- TODO: DNS -->
+
+				<section>
+					<p>Revenons quelques instant sur les réseaux...</p>
+					<p><b>Comment créer plusieurs sous-réseaux logiques, virtuels à l'intérieur d'un même réseau physique ?</b></p>
+				</section>
+				
+				<section>
+
+					<section>
+						<h2>VLAN</h2>
+						<p>C'est une fonctionalité permettant de créer plusieurs sous-réseaux logiques, virtuels à l'intérieur d'un même réseau physique.</p>
+						<p>Avec les VLAN, nous pouvons par exemple décider que le port 24 d'un switch donnera accès à un réseau virtuel n°103 dédié au wifi et que le port 1 donnera accès au réseau virtuel n°1 dédié au management et au réseau dédié au wifi...</p>
+						<p>Utilisation : séparation d'usages, séparation de privilèges...</p>
+					</section>
+
+					<section>
+						<h2>VLAN</h2>
+						<p>Ils fonctionnent grâce à un tag (VLAN ID entre 0 et 4095) spécial indiqué dans chaque paquet dans la couche <b>liaison</b>.</p>
+					</section>
+
+					<section>
+						<h2>VLAN</h2>
+						<p>Les équipements des utilisateurs lambda ne sont pas configurés pour tagger les paquets. Il faut donc faire en sorte que les switchs rajoutent le tag les paquets en provenance des ports sur lesquels se connectent les joueurs. On dit qu'on met le port en mode <b>access</b> ou <b>untagged</b>.</p>
+						<p>Les serveurs ou les équipements configurés pour peuvent dialoguer sur des VLAN particuliers lorsqu'ils y sont autorisés. On configure donc le port en mode <b>trunk</b> ou <b>tagged</b> dans le switch.
+					</section>
+					
+				</section>
+
+				<section data-background-color="#000">
+					<section>
+						<h2>Quelques commandes utiles</h2>
+						<p><b>ip addr</b> : affiche l'adresse IP, le masque de sous-réseau de chaque interface de sa machine.</p>
+						<p><b>ip route</b> : affiche la table de routage</p>
+						<p><b>ping</b> : permet d'envoyer un paquet ping-pong à une machine (protocole ICMP) et affiche le temps total qu'à pris le paquet à faire son allez-retour.</p>
+					</section>
+
+					<section>
+						<h2>Quelques commandes utiles</h2>
+						<p><b>traceroute</b> : commande permettant de retracer le chemin d'un paquet et d'afficher les routeurs par lesquels il est passé.</p>
+						<p><b>ss -tualpe</b> : commande permettant de voir les ports utilisés par les applications sur une machine.</p>
+						<p><b>dhclient -v &#x3c;interface&#x3e;</b> : faire une demande de bail de DHCP sur l'interface spécifiée.</p>
+					</section>
+				</section>
+
+				<section>
+					<h2>Quelques références</h2>
+					<ul>
+						<li>Formation réseau InsaLan, Nicolas Hurman et Quentin Dufour, 2013.</li>
+						<li>Cours de réseau de troisième année.</li>
+						<li>Articles Wikipédia de VLAN, DHCP, TCP, UDP, IP...</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Merci de votre attention !</h2>
+				</section>
+			</div>
+		</div>
+
+		<script src="reveal.js/js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+				//slideNumber: 'c/t',
+				progress: false,
+				transition: "fade",
+				margin: 0.2,
+				dependencies: [
+					{ src: 'reveal.js/plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>

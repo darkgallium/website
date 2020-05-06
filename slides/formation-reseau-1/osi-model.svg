@@ -1,0 +1,1609 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="-78 -46 476 560"
+   width="476"
+   height="560"
+   version="1.1"
+   id="svg2233"
+   sodipodi:docname="osi-model.svg"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14">
+  <metadata
+     id="metadata2237">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1916"
+     inkscape:window-height="1041"
+     id="namedview2235"
+     showgrid="false"
+     inkscape:zoom="1.5178571"
+     inkscape:cx="184.42647"
+     inkscape:cy="391.4679"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2233" />
+  <defs
+     id="defs4">
+    <path
+       id="bracket-mask"
+       d="m-3.5569 225c-0.231-4.08-0.231-4.08-0.231-4.08l-0.847-3.93-1.309-3.23-1.617-2.93-2.156-2.46-2.3101-2-2.695-1.16-3.003-0.38 3.003-0.24 2.695-1.23 2.3101-1.69 2.156-2.7 1.617-3 1.309-3.23 0.847-3.85 0.231-4.24"
+       stroke="#fff"
+       fill="#fff" />
+    <path
+       id="bracket"
+       fill="none"
+       stroke="#7c7c7c"
+       d="m-3.5569 225c-0.231-4.08-0.231-4.08-0.231-4.08l-0.847-3.93-1.309-3.23-1.617-2.93-2.156-2.46-2.3101-2-2.695-1.16-3.003-0.38 3.003-0.24 2.695-1.23 2.3101-1.69 2.156-2.7 1.617-3 1.309-3.23 0.847-3.85 0.231-4.24" />
+  </defs>
+  <rect
+     height="100%"
+     width="100%"
+     y="-46"
+     x="-78"
+     id="rect1549"
+     fill="#fff" />
+  <g
+     fill="none"
+     id="g1559">
+    <rect
+       ry="5"
+       height="192"
+       width="30.945"
+       stroke="#7c7c7c"
+       y="283.04"
+       x="-22.297"
+       stroke-width="2"
+       class="bracket"
+       id="rect1551" />
+    <rect
+       ry="6"
+       height="257.77"
+       width="30.945"
+       stroke="#7c7c7c"
+       y="-4.0167"
+       x="-21.953"
+       stroke-width="2"
+       class="bracket"
+       id="rect1553" />
+    <rect
+       ry="17.641"
+       height="212.09"
+       width="360.12"
+       stroke="#b2b2b2"
+       y="272.97"
+       x="8.9502"
+       stroke-width="6"
+       class="outline"
+       id="rect1555" />
+    <rect
+       ry="17.641"
+       height="278.17"
+       width="360.12"
+       stroke="#b2b2b2"
+       y="-14.017"
+       x="8.9443"
+       stroke-width="6"
+       class="outline"
+       id="rect1557" />
+  </g>
+  <g
+     style="paint-order:stroke"
+     stroke-width="2"
+     stroke="#000"
+     stroke-opacity=".4"
+     id="g1591">
+    <g
+       fill="#c4db80"
+       id="g1573">
+      <rect
+         ry="17.641"
+         height="60"
+         width="120"
+         y="-4.0729"
+         x="18.982"
+         class="col1 row1"
+         id="rect1561" />
+      <rect
+         ry="17.641"
+         height="60"
+         width="220"
+         y="-4.0729"
+         x="138.98"
+         class="col2 row1"
+         id="rect1563" />
+      <rect
+         ry="17.641"
+         height="60"
+         width="120"
+         y="61.927"
+         x="18.982"
+         class="col1 row2"
+         id="rect1565" />
+      <rect
+         ry="17.641"
+         height="60"
+         width="220"
+         y="61.927"
+         x="138.98"
+         class="col2 row2"
+         id="rect1567" />
+      <rect
+         ry="17.641"
+         height="60"
+         width="120"
+         y="127.93"
+         x="18.982"
+         class="col1 row3"
+         id="rect1569" />
+      <rect
+         ry="17.641"
+         height="60"
+         width="220"
+         y="127.93"
+         x="138.98"
+         class="col2 row3"
+         id="rect1571" />
+    </g>
+    <rect
+       ry="17.641"
+       height="60"
+       width="120"
+       y="193.93"
+       x="18.982"
+       class="col1 row4"
+       fill="#e0e97f"
+       id="rect1575" />
+    <rect
+       ry="17.641"
+       height="60"
+       width="220"
+       y="193.93"
+       x="138.98"
+       class="col2 row4"
+       fill="#e0e97f"
+       id="rect1577" />
+    <rect
+       ry="17.641"
+       height="60"
+       width="120"
+       y="283.03"
+       x="19.04"
+       class="col1 row5"
+       fill="#f0e17f"
+       id="rect1579" />
+    <rect
+       ry="17.641"
+       height="60"
+       width="220"
+       y="283.03"
+       x="139.04"
+       class="col2 row5"
+       fill="#f0e17f"
+       id="rect1581" />
+    <rect
+       ry="17.641"
+       height="60"
+       width="120"
+       y="349.03"
+       x="19.04"
+       class="col1 row6"
+       fill="#edc27f"
+       id="rect1583" />
+    <rect
+       ry="17.641"
+       height="60"
+       width="220"
+       y="349.03"
+       x="139.04"
+       class="col2 row6"
+       fill="#edc27f"
+       id="rect1585" />
+    <rect
+       ry="17.641"
+       height="60"
+       width="120"
+       y="415.03"
+       x="19.04"
+       class="col1 row7"
+       fill="#dca27f"
+       id="rect1587" />
+    <rect
+       ry="17.641"
+       height="60"
+       width="220"
+       y="415.03"
+       x="139.04"
+       class="col2 row7"
+       fill="#dca27f"
+       id="rect1589" />
+  </g>
+  <use
+     y="-80"
+     x="-17"
+     xlink:href="#bracket-mask"
+     id="use1593" />
+  <use
+     xlink:href="#bracket"
+     stroke="#7c7c7c"
+     y="-80"
+     x="-18.4"
+     stroke-width="1.9"
+     fill="none"
+     id="use1595" />
+  <use
+     y="176"
+     x="-17"
+     xlink:href="#bracket-mask"
+     id="use1597" />
+  <use
+     xlink:href="#bracket"
+     stroke="#7c7c7c"
+     y="176"
+     x="-18.4"
+     stroke-width="1.9"
+     fill="none"
+     id="use1599" />
+  <switch
+     font-size="18.062"
+     font-family="Arial,sans-serif"
+     id="switch2231">
+    <!-- ================================================ -->
+    <g
+       style="text-anchor:middle"
+       systemLanguage="it"
+       id="g1679">
+      <text
+         y="-26.3051"
+         x="80"
+         id="text1601">unità di dato</text>
+      <text
+         y="-26.3051"
+         x="250"
+         id="text1603">livelli</text>
+      <text
+         y="31.3882"
+         x="78.9818"
+         id="text1605">Dati</text>
+      <text
+         y="97.3882"
+         x="78.9818"
+         id="text1607">Dati</text>
+      <text
+         y="163.388"
+         x="78.9818"
+         id="text1609">Dati</text>
+      <text
+         y="229.388"
+         x="78.9818"
+         id="text1611">Segmenti</text>
+      <text
+         y="318.494"
+         x="79.04"
+         id="text1613">Pacchetti</text>
+      <text
+         y="384.494"
+         x="79.04"
+         id="text1615">Trame</text>
+      <text
+         y="450.494"
+         x="79.04"
+         id="text1617">Bit</text>
+      <text
+         y="18"
+         x="248.982"
+         id="text1625">
+        <tspan
+           id="tspan1619">Applicazione</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1621">dal processo di rete</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1623">all'applicazione</tspan>
+      </text>
+      <text
+         y="82"
+         x="248.982"
+         id="text1633">
+        <tspan
+           id="tspan1627">Presentazione</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1629">rappresentazione dei dati</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1631">e criptazione</tspan>
+      </text>
+      <text
+         y="150"
+         x="248.982"
+         id="text1639">
+        <tspan
+           id="tspan1635">Sessione</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="22"
+           id="tspan1637">comunicazione inter-host</tspan>
+      </text>
+      <text
+         y="214"
+         x="248.982"
+         id="text1647">
+        <tspan
+           id="tspan1641">Trasporto</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1643">connessioni end-to-end</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1645">e affidabilità</tspan>
+      </text>
+      <text
+         y="303"
+         x="249.04"
+         id="text1655">
+        <tspan
+           id="tspan1649">Rete</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1651">determinazione dei percorsi e</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1653">indirizzamento logico (IP)</tspan>
+      </text>
+      <text
+         y="369"
+         x="249.04"
+         id="text1663">
+        <tspan
+           id="tspan1657">Collegamento</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1659">indirizzamento fisico</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1661">(MAC e LLC)</tspan>
+      </text>
+      <text
+         y="435"
+         x="249.04"
+         id="text1671">
+        <tspan
+           id="tspan1665">Fisico</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1667">mezzo, segnale e</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1669">trasmissione binaria</tspan>
+      </text>
+      <g
+         font-size="24.062"
+         id="g1677">
+        <text
+           y="127"
+           x="-50"
+           transform="rotate(-90 -50 127)"
+           id="text1673">Livelli degli host</text>
+        <text
+           y="384"
+           x="-50"
+           transform="rotate(-90 -50 384)"
+           id="text1675">Livelli dei mezzi</text>
+      </g>
+    </g>
+    <!-- ================================================ -->
+    <g
+       style="text-anchor:middle"
+       systemLanguage="ro"
+       id="g1759">
+      <text
+         y="-26.3051"
+         x="80"
+         id="text1681">unitate de date</text>
+      <text
+         y="-26.3051"
+         x="250"
+         id="text1683">niveluri</text>
+      <text
+         y="31.3882"
+         x="78.9818"
+         id="text1685">Date</text>
+      <text
+         y="97.3882"
+         x="78.9818"
+         id="text1687">Date</text>
+      <text
+         y="163.388"
+         x="78.9818"
+         id="text1689">Date</text>
+      <text
+         y="229.388"
+         x="78.9818"
+         id="text1691">Segmente</text>
+      <text
+         y="318.494"
+         x="79.04"
+         id="text1693">Pachete</text>
+      <text
+         y="384.494"
+         x="79.04"
+         id="text1695">Cadre</text>
+      <text
+         y="450.494"
+         x="79.04"
+         id="text1697">Biți</text>
+      <text
+         y="18"
+         x="248.982"
+         id="text1705">
+        <tspan
+           id="tspan1699">Aplicație</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1701">de la procesulde rețea</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1703">la'aplicație</tspan>
+      </text>
+      <text
+         y="82"
+         x="248.982"
+         id="text1713">
+        <tspan
+           id="tspan1707">Prezentare</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1709">reprezentarea datelor</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1711">și criptare</tspan>
+      </text>
+      <text
+         y="150"
+         x="248.982"
+         id="text1719">
+        <tspan
+           id="tspan1715">Sesiune</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="22"
+           id="tspan1717">comunicare între hosturi</tspan>
+      </text>
+      <text
+         y="214"
+         x="248.982"
+         id="text1727">
+        <tspan
+           id="tspan1721">Trasport</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1723">conexiuni end-to-end</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1725">și fiabilitate</tspan>
+      </text>
+      <text
+         y="303"
+         x="249.04"
+         id="text1735">
+        <tspan
+           id="tspan1729">Rețea</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1731">determinarea rutelor</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1733">și adresare logică (IP)</tspan>
+      </text>
+      <text
+         y="369"
+         x="249.04"
+         id="text1743">
+        <tspan
+           id="tspan1737">Legătură de date</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1739">adresare fizică</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1741">(MAC și LLC)</tspan>
+      </text>
+      <text
+         y="435"
+         x="249.04"
+         id="text1751">
+        <tspan
+           id="tspan1745">Fizic</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1747">mediu, semnal și</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1749">transmisiune binară</tspan>
+      </text>
+      <g
+         font-size="24.062"
+         id="g1757">
+        <text
+           y="127"
+           x="-50"
+           transform="rotate(-90 -50 127)"
+           id="text1753">Niveluri ale hostului</text>
+        <text
+           y="384"
+           x="-50"
+           transform="rotate(-90 -50 384)"
+           id="text1755">Niveluri are mediului</text>
+      </g>
+    </g>
+    <!-- ================================================ -->
+    <g
+       style="text-anchor:middle"
+       systemLanguage="cs"
+       id="g1835">
+      <text
+         y="-26.3051"
+         x="80"
+         id="text1761">data</text>
+      <text
+         y="-26.3051"
+         x="250"
+         id="text1763">vrstva</text>
+      <text
+         y="31.3882"
+         x="78.9818"
+         id="text1765">Data</text>
+      <text
+         y="97.3882"
+         x="78.9818"
+         id="text1767">Data</text>
+      <text
+         y="163.388"
+         x="78.9818"
+         id="text1769">Data</text>
+      <text
+         y="229.388"
+         x="78.9818"
+         id="text1771">Segmenty</text>
+      <text
+         y="318.494"
+         x="79.04"
+         id="text1773">Pakety</text>
+      <text
+         y="384.494"
+         x="79.04"
+         id="text1775">Rámce</text>
+      <text
+         y="450.494"
+         x="79.04"
+         id="text1777">Bity</text>
+      <text
+         y="18"
+         x="248.982"
+         id="text1783">
+        <tspan
+           id="tspan1779">Aplikační</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="22"
+           id="tspan1781">síťový proces aplikací</tspan>
+      </text>
+      <text
+         y="82"
+         x="248.982"
+         id="text1789">
+        <tspan
+           id="tspan1785">Prezentační</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="22"
+           id="tspan1787">prezentace dat a šifrování</tspan>
+      </text>
+      <text
+         y="150"
+         x="248.982"
+         id="text1797">
+        <tspan
+           id="tspan1791">Relační</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1793">komunikace mezi</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1795">hostitely</tspan>
+      </text>
+      <text
+         y="214"
+         x="248.982"
+         id="text1805">
+        <tspan
+           id="tspan1799">Transportní</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1801">End-to-End spojení</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1803">a spolehlivost</tspan>
+      </text>
+      <text
+         y="303"
+         x="249.04"
+         id="text1813">
+        <tspan
+           id="tspan1807">Síťová</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1809">určování cesty a</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1811">logické adresování (IP)</tspan>
+      </text>
+      <text
+         y="369"
+         x="249.04"
+         id="text1821">
+        <tspan
+           id="tspan1815">Spojová</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1817">fyzické adresování</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1819">(MAC a LLC)</tspan>
+      </text>
+      <text
+         y="435"
+         x="249.04"
+         id="text1827">
+        <tspan
+           id="tspan1823">Fyzická</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="22"
+           id="tspan1825">médium, signál, binární přenos</tspan>
+      </text>
+      <g
+         font-size="24.062"
+         id="g1833">
+        <text
+           y="127"
+           x="-50"
+           transform="rotate(-90 -50 127)"
+           id="text1829">Vrstvy hostitelů</text>
+        <text
+           y="384"
+           x="-50"
+           transform="rotate(-90 -50 384)"
+           id="text1831">Vrstvy média</text>
+      </g>
+    </g>
+    <!-- ================================================ -->
+    <g
+       style="text-anchor:middle"
+       systemLanguage="sv"
+       id="g1917">
+      <text
+         y="-26.3051"
+         x="80"
+         id="text1837">data</text>
+      <text
+         y="-26.3051"
+         x="250"
+         id="text1839">skikt</text>
+      <text
+         y="31.3882"
+         x="78.9818"
+         id="text1841">Data</text>
+      <text
+         y="97.3882"
+         x="78.9818"
+         id="text1843">Data</text>
+      <text
+         y="163.388"
+         x="78.9818"
+         id="text1845">Data</text>
+      <text
+         y="229.388"
+         x="78.9818"
+         id="text1847">Segment</text>
+      <text
+         y="318.494"
+         x="79.04"
+         id="text1849">Paket</text>
+      <text
+         y="384.494"
+         x="79.04"
+         id="text1851">Ramar</text>
+      <text
+         y="450.494"
+         x="79.04"
+         id="text1853">Bitar</text>
+      <text
+         y="18"
+         x="248.982"
+         id="text1861">
+        <tspan
+           id="tspan1855">Applikation</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1857">nätverksprocess</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1859">till applikation</tspan>
+      </text>
+      <text
+         y="82"
+         x="248.982"
+         id="text1869">
+        <tspan
+           id="tspan1863">Presentation</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1865">dataframställning</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1867">och kryptering</tspan>
+      </text>
+      <text
+         y="150"
+         x="248.982"
+         id="text1877">
+        <tspan
+           id="tspan1871">Session</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1873">mellanvärdslig</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1875">kommunikationssamordning</tspan>
+      </text>
+      <text
+         y="214"
+         x="248.982"
+         id="text1885">
+        <tspan
+           id="tspan1879">Transport</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1881">sändning, mottagning</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1883">och ankomstkontroll</tspan>
+      </text>
+      <text
+         y="303"
+         x="249.04"
+         id="text1893">
+        <tspan
+           id="tspan1887">Nätverk</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1889">navigering och</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1891">logisk adressering (IP)</tspan>
+      </text>
+      <text
+         y="369"
+         x="249.04"
+         id="text1901">
+        <tspan
+           id="tspan1895">Datalänk</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1897">fysisk adressering</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1899">(MAC och LLC)</tspan>
+      </text>
+      <text
+         y="435"
+         x="249.04"
+         id="text1909">
+        <tspan
+           id="tspan1903">Fysiskt</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1905">media, signal och</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1907">binär överföring</tspan>
+      </text>
+      <g
+         font-size="24.062"
+         id="g1915">
+        <text
+           y="127"
+           x="-50"
+           transform="rotate(-90 -50 127)"
+           id="text1911">Värdskikt</text>
+        <text
+           y="384"
+           x="-50"
+           transform="rotate(-90 -50 384)"
+           id="text1913">Mediumskikt</text>
+      </g>
+    </g>
+    <!-- ================================================ -->
+    <g
+       style="text-anchor:middle"
+       systemLanguage="es"
+       id="g1993">
+      <text
+         y="-26.3051"
+         x="80"
+         id="text1919">data unit</text>
+      <text
+         y="-26.3051"
+         x="250"
+         id="text1921">layers</text>
+      <text
+         y="31.3882"
+         x="78.9818"
+         id="text1923">Data</text>
+      <text
+         y="97.3882"
+         x="78.9818"
+         id="text1925">Data</text>
+      <text
+         y="163.388"
+         x="78.9818"
+         id="text1927">Data</text>
+      <text
+         y="229.388"
+         x="78.9818"
+         id="text1929">Segments</text>
+      <text
+         y="318.494"
+         x="79.04"
+         id="text1931">Packets</text>
+      <text
+         y="384.494"
+         x="79.04"
+         id="text1933">Frames</text>
+      <text
+         y="450.494"
+         x="79.04"
+         id="text1935">Bits</text>
+      <text
+         y="18"
+         x="248.982"
+         id="text1941">
+        <tspan
+           id="tspan1937">Nivel de Aplicación</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="22"
+           id="tspan1939">servicios de red a aplicaciones</tspan>
+      </text>
+      <text
+         y="82"
+         x="248.982"
+         id="text1947">
+        <tspan
+           id="tspan1943">Nivel de Presentación</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="22"
+           id="tspan1945">representación de los datos</tspan>
+      </text>
+      <text
+         y="150"
+         x="248.982"
+         id="text1955">
+        <tspan
+           id="tspan1949">Nivel de Sesión</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1951">comunicación entre dispositivos</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1953">de la red</tspan>
+      </text>
+      <text
+         y="214"
+         x="248.982"
+         id="text1963">
+        <tspan
+           id="tspan1957">Nivel de Transporte</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1959">conexión extremo-a-extremo</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1961">y fiabilidad de los datos</tspan>
+      </text>
+      <text
+         y="303"
+         x="249.04"
+         id="text1971">
+        <tspan
+           id="tspan1965">Nivel de Red</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1967">determinación de ruta e</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1969">direccionamiento lógico (IP)</tspan>
+      </text>
+      <text
+         y="369"
+         x="249.04"
+         id="text1979">
+        <tspan
+           id="tspan1973">Nivel de Enlace de Datos</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1975">direccionamiento físico</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan1977">(MAC y LLC)</tspan>
+      </text>
+      <text
+         y="435"
+         x="249.04"
+         id="text1985">
+        <tspan
+           id="tspan1981">Nivel Físico</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="22"
+           id="tspan1983">señal y transmisión binaria</tspan>
+      </text>
+      <g
+         font-size="24.062"
+         id="g1991">
+        <text
+           y="127"
+           x="-50"
+           transform="rotate(-90 -50 127)"
+           id="text1987">Host Layers</text>
+        <text
+           y="384"
+           x="-50"
+           transform="rotate(-90 -50 384)"
+           id="text1989">Media Layers</text>
+      </g>
+    </g>
+    <!-- ================================================ -->
+    <g
+       style="text-anchor:middle"
+       systemLanguage="sk"
+       id="g2073">
+      <text
+         y="-26.3051"
+         x="80"
+         id="text1995">dáta</text>
+      <text
+         y="-26.3051"
+         x="250"
+         id="text1997">vrstva</text>
+      <text
+         y="31.3882"
+         x="78.9818"
+         id="text1999">Dáta</text>
+      <text
+         y="97.3882"
+         x="78.9818"
+         id="text2001">Dáta</text>
+      <text
+         y="163.388"
+         x="78.9818"
+         id="text2003">Dáta</text>
+      <text
+         y="229.388"
+         x="78.9818"
+         id="text2005">Segmenty</text>
+      <text
+         y="318.494"
+         x="79.04"
+         id="text2007">Pakety</text>
+      <text
+         y="384.494"
+         x="79.04"
+         id="text2009">Rámce</text>
+      <text
+         y="450.494"
+         x="79.04"
+         id="text2011">Bity</text>
+      <text
+         y="18"
+         x="248.982"
+         id="text2017">
+        <tspan
+           id="tspan2013">Aplikačná</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="22"
+           id="tspan2015">sieťový proces aplikácii</tspan>
+      </text>
+      <text
+         y="82"
+         x="248.982"
+         id="text2025">
+        <tspan
+           id="tspan2019">Prezentačná</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2021">reprezentácia dát</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2023">a kryptovanie</tspan>
+      </text>
+      <text
+         y="150"
+         x="248.982"
+         id="text2033">
+        <tspan
+           id="tspan2027">Relačná</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2029">komunikácia</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2031">medzi strojmi</tspan>
+      </text>
+      <text
+         y="214"
+         x="248.982"
+         id="text2041">
+        <tspan
+           id="tspan2035">Transportná</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2037">End-to-end spojenia</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2039">a spoľahlivosť</tspan>
+      </text>
+      <text
+         y="303"
+         x="249.04"
+         id="text2049">
+        <tspan
+           id="tspan2043">Sieťová</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2045">určovanie cesty a</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2047">logické adresovanie (IP)</tspan>
+      </text>
+      <text
+         y="369"
+         x="249.04"
+         id="text2057">
+        <tspan
+           id="tspan2051">Spojová</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2053">fyzické adresovanie</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2055">(MAC a LLC)</tspan>
+      </text>
+      <text
+         y="435"
+         x="249.04"
+         id="text2065">
+        <tspan
+           id="tspan2059">Fyzická</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2061">médium, signál,</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2063">binárny prenos</tspan>
+      </text>
+      <g
+         font-size="24.062"
+         id="g2071">
+        <text
+           y="127"
+           x="-50"
+           transform="rotate(-90 -50 127)"
+           id="text2067">Vrstvy stroja</text>
+        <text
+           y="384"
+           x="-50"
+           transform="rotate(-90 -50 384)"
+           id="text2069">Vrstvy média</text>
+      </g>
+    </g>
+    <!-- ================================================ French -->
+    <g
+       style="text-anchor:middle"
+       systemLanguage="fr"
+       id="g2151">
+      <text
+         y="-26.3051"
+         x="80"
+         id="text2075">unité de données</text>
+      <text
+         y="-26.3051"
+         x="250"
+         id="text2077">couches</text>
+      <text
+         y="31.3882"
+         x="78.9818"
+         id="text2079">Donnée</text>
+      <text
+         y="97.3882"
+         x="78.9818"
+         id="text2081">Donnée</text>
+      <text
+         y="163.388"
+         x="78.9818"
+         id="text2083">Donnée</text>
+      <text
+         y="229.388"
+         x="78.9818"
+         id="text2085">Segment</text>
+      <text
+         y="318.494"
+         x="79.04"
+         id="text2087">Paquet</text>
+      <text
+         y="384.494"
+         x="79.04"
+         id="text2089">Trame</text>
+      <text
+         y="450.494"
+         x="79.04"
+         id="text2091">Bit</text>
+      <text
+         y="18"
+         x="248.982"
+         id="text2097">
+        <tspan
+           id="tspan2093">7 - Application</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="22"
+           id="tspan2095">Point d'accès aux services réseau</tspan>
+      </text>
+      <text
+         y="82"
+         x="248.982"
+         id="text2105">
+        <tspan
+           id="tspan2099">6 - Présentation</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2101">Conversion et chiffrement</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2103">des données</tspan>
+      </text>
+      <text
+         y="150"
+         x="248.982"
+         id="text2111">
+        <tspan
+           id="tspan2107">5 - Session</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="22"
+           id="tspan2109">Communication Interhost</tspan>
+      </text>
+      <text
+         y="214"
+         x="248.982"
+         id="text2119">
+        <tspan
+           id="tspan2113">4 - Transport</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2115">Connexion de bout en bout</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2117">et contrôle de flux (TCP)</tspan>
+      </text>
+      <text
+         y="303"
+         x="249.04"
+         id="text2127">
+        <tspan
+           id="tspan2121">3 - Réseau</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2123">Détermine le parcours</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2125">et l'adressage logique (IP)</tspan>
+      </text>
+      <text
+         y="369"
+         x="249.04"
+         id="text2135">
+        <tspan
+           id="tspan2129">2 - Liaison</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2131">Adressage physique</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2133">(MAC et LLC)</tspan>
+      </text>
+      <text
+         y="435"
+         x="249.04"
+         id="text2143">
+        <tspan
+           id="tspan2137">1 - Physique</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2139">Transmission binaire</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2141">numérique ou analogique</tspan>
+      </text>
+      <g
+         font-size="24.062"
+         id="g2149">
+        <text
+           y="127"
+           x="-50"
+           transform="rotate(-90 -50 127)"
+           id="text2145">Couches hautes</text>
+        <text
+           y="384"
+           x="-50"
+           transform="rotate(-90 -50 384)"
+           id="text2147">Couches matérielles</text>
+      </g>
+    </g>
+    <!-- ================================================ -->
+    <g
+       style="text-anchor:middle"
+       id="g2229">
+      <text
+         y="-26.3051"
+         x="80"
+         id="text2153">data unit</text>
+      <text
+         y="-26.3051"
+         x="250"
+         id="text2155">layers</text>
+      <text
+         y="31.3882"
+         x="78.9818"
+         id="text2157">Data</text>
+      <text
+         y="97.3882"
+         x="78.9818"
+         id="text2159">Data</text>
+      <text
+         y="163.388"
+         x="78.9818"
+         id="text2161">Data</text>
+      <text
+         y="229.388"
+         x="78.9818"
+         id="text2163">Segments</text>
+      <text
+         y="318.494"
+         x="79.04"
+         id="text2165">Packets</text>
+      <text
+         y="384.494"
+         x="79.04"
+         id="text2167">Frames</text>
+      <text
+         y="450.494"
+         x="79.04"
+         id="text2169">Bits</text>
+      <text
+         y="18"
+         x="248.982"
+         id="text2175">
+        <tspan
+           id="tspan2171">Application</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="22"
+           id="tspan2173">Network Process to Application</tspan>
+      </text>
+      <text
+         y="82"
+         x="248.982"
+         id="text2183">
+        <tspan
+           id="tspan2177">Presentation</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2179">Data Representation</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2181">and Encryption</tspan>
+      </text>
+      <text
+         y="150"
+         x="248.982"
+         id="text2189">
+        <tspan
+           id="tspan2185">Session</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="22"
+           id="tspan2187">Interhost Communication</tspan>
+      </text>
+      <text
+         y="214"
+         x="248.982"
+         id="text2197">
+        <tspan
+           id="tspan2191">Transport</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2193">End-to-End Connections</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2195">and Reliability</tspan>
+      </text>
+      <text
+         y="303"
+         x="249.04"
+         id="text2205">
+        <tspan
+           id="tspan2199">Network</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2201">Path Determination and</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2203">Logical Addressing (IP)</tspan>
+      </text>
+      <text
+         y="369"
+         x="249.04"
+         id="text2213">
+        <tspan
+           id="tspan2207">Data Link</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2209">Physical Addressing</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2211">(MAC and LLC)</tspan>
+      </text>
+      <text
+         y="435"
+         x="249.04"
+         id="text2221">
+        <tspan
+           id="tspan2215">Physical</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2217">Media, Signal and</tspan>
+        <tspan
+           x="248.982"
+           font-size="10pt"
+           dy="16"
+           id="tspan2219">Binary Transmission</tspan>
+      </text>
+      <g
+         font-size="24.062"
+         id="g2227">
+        <text
+           y="127"
+           x="-50"
+           transform="rotate(-90 -50 127)"
+           id="text2223">Host Layers</text>
+        <text
+           y="384"
+           x="-50"
+           transform="rotate(-90 -50 384)"
+           id="text2225">Media Layers</text>
+      </g>
+    </g>
+  </switch>
+</svg>
