@@ -7,9 +7,9 @@ draft: false
 
 ### Current
 
-* raytracer, a tool written in **Rust** and **C** to trace the path of a TCP/IP packet within the Linux kernel's depths. Still at a really early stage.
+* [mini](https://git.deuxfleurs.fr/darkgallium/mini), a minimal init system written in Rust (my first project in this language!). Its main set of features is nearly complete, it just lacks start/stop services support.
 
-* [arduino-u2fhid](https://github.com/darkgallium/arduino-u2fhid), an effort to make a U2F FIDO compatible key from an Arduino Micro. Still at a really early stage.
+* [arduino-u2fhid](https://github.com/darkgallium/arduino-u2fhid), an effort to make a U2F FIDO compatible key from an Arduino Micro. Turns out the Arduino isn’t fast enough to implement the protocol (especially generate the ECDSA keys). I might change for a Teensy or a STM32 based card.
 
 * a [port](https://github.com/darkgallium/openwrt/tree/tl-850re-v2-backport1701) of LEDE 17.01 for my TP Link TL-850re v2 wifi AP (device with a NAND flash of only 4 MB). Not quite working at this time, device boots, failsafe mode works (luckily) but wifi & ethernet don't in normal mode.
 
