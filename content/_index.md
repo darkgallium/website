@@ -7,7 +7,9 @@ draft: false
 
 My name is **Florian Le Minoux** alias darkgallium :)
 
-I'm a french computer science student at INSA Rennes. I'm particularly interested in **networking**, **low-level programming** and **info-sec**.
+I work as an engineer in cybersecurity. I'm particularly interested in **networking**, **low-level programming** and **cybersec**.
+
+I do contribute from time to time to open-source projects for [deuxfleurs](https://deuxfleurs.fr) or [InsaLan](https://www.insalan.fr).
 
 This website contains mainly some personal [projects](/projects) and a [blog](/posts/).
 
