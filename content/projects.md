@@ -23,4 +23,6 @@ draft: false
 
 ## Talks
 
+* 2021: Organizing a LAN-party in 2021 (rump @barback 2021, french): a small 5min presentation of the technical side of [InsaLan](https://www.insalan.fr), [slides](/rump-barbhack-2021/).
+
 * 2019: Initial network training (french): some [slides](/formation-reseau-1/) to give a minimal background for the newcomers in the network team at [InsaLan](https://www.insalan.fr).
